@@ -26,4 +26,5 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build and Test
+        working-directory: ./MainService
         run: ./gradlew clean test
